@@ -10,8 +10,13 @@
     ├─css
     │   main.css
     ├─img
-    │   xxx.jpg
-    │   xxx.png
+    │   cabinet.jpeg
+    │   image1.jpeg
+    │   image2.jpeg
+    │   localrep.png
+    │   dualvoting.png
+    │   party-votes.png
     └─js
        main.js
+```
 ```
