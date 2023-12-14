@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<head>
+    <title>References</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Title above the navigation bar -->
+    <div class="page-title">
+        What is MMP?
+    </div>
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Links to different sections -->
+        <a href="index.html">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
+            <i class="fa fa-bars"></i>
+        </a>
+        
+        <a href="html2.html">Dual Voting</a>
+        <a href="html3.html">Local Representatives</a>
+        <a href="html4.html">Party List System</a>
+        <a href="html5.html">MMP in NZ</a>
+
+        <!-- Active link pointing to the references.html page -->
+        <a class="active" href="html6.html">References</a>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <!-- Reference section -->
+        <h2>References</h2>
+        <ul>
+            <li><a href="https://www.parliament.nz/en/visit-and-learn/parliament-in-election-year/what-is-the-mmp-voting-system/#:~:text=It%20is%20a%20proportional%20system%2C,is%20called%20the%20party%20vote">Resource 1 - parliament.nz</a></li>
+            <li><a href="https://github.com/8lake8radshaw/8lake8radshaw.github.io/blob/main/wiki.md#:~:text=Resource%202%20%2D%20wikipedia.org">Resource 2 - wikipedia.org</a></li>
+            <li><a href="https://www.rnz.co.nz/news/political/428085/our-mmp-voting-system-explained#:~:text=MMP%20stands%20for%20Mixed%20Member,the%20next%20election%2C%20in%201996">Resource 3 - rnz.co.nz</a></li>
+            <li><a href="https://elections.nz/democracy-in-nz/what-is-new-zealands-system-of-government/what-is-mmp/#:~:text=MMP%20is%20the%20voting%20system,have%20two%20votes%20under%20MMP">Resource 4 - elections.nz</a></li>
+            <!-- ... Add more references as needed ... -->
+        </ul>
+    </div>
+
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+
+<script>
+    function toggleNavigation() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    document.getElementsByClassName("icon")[0].addEventListener("click", toggleNavigation);
+    </script>
+    
+
+</html>
