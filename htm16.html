@@ -21,6 +21,10 @@
     <div class="topnav" id="myTopnav">
         <!-- Links to different sections -->
         <a href="index.html">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
+            <i class="fa fa-bars"></i>
+        </a>
+        
         <a href="section1.html">Dual Voting</a>
         <a href="section2.html">Local Representatives</a>
         <a href="section3.html">Party List System</a>
@@ -57,5 +61,18 @@
     <script src="js/main.js"></script>
 
 </body>
+
+<script>
+    function toggleNavigation() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    document.getElementsByClassName("icon")[0].addEventListener("click", toggleNavigation);
+    </script>
+    
 
 </html>
