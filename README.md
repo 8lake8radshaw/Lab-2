@@ -1,15 +1,21 @@
-# lab2
+```
+[Lab-2]
     │index.html
-    │section1.html
-    │section2.html
-    │section3.html
-    │see_also.html
-    │references.html
+    │html2.html
+    │html3.html
+    │html4.html
+    │html5.html
+    │html6.html
     │readme.md
     ├─css
     │   main.css
     ├─img
-    │   xxx.jpg
-    │   xxx.png
+    │   cabinet.jpeg
+    │   image1.jpeg
+    │   image2.jpeg
+    │   localrep.png
+    │   dualvoting.png
+    │   party-votes.png
     └─js
        main.js
+```
